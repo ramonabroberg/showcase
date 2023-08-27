@@ -1,0 +1,30 @@
+/* Asterisk wildcard selector so it will override default styles that's added by the browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header */
+header {
+    background-color: lightgreen;
+}
+
+/* Main content */
+main {
+    background-color: pink;
+    /* Make  main take up any surplus space so the footer stays at the bottom of the page */ 
+    flex: 1 0 auto;
+}
+
+/* Footer */
+footer {
+    background-color: purple;
+}
