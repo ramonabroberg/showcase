@@ -90,12 +90,12 @@ nav {
 }
 
 .selected {
-    border-bottom: 2px solid #727272;
+    border-bottom: 3px solid #4f0e96;
 }
 
 /* Main content */
 main {
-    background-color: rgb(11, 39, 164);
+    background-color: #5D6AFF;
     /* Make main take up any surplus space so the footer stays at the bottom of the page */ 
     flex: 1 0 auto;
     /* Add margin at the top of the page so the header doesn't hide thee content */
