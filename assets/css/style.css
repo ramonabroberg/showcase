@@ -148,12 +148,6 @@ main {
     background-color: #010439;
 }
 
-/* #circle-img {
-    display: flex;
-    justify-content: center;
-    background-color: #010439;
-}*/
-
 #circle-img {
     background: url("../images/live-audience.jpg") no-repeat center / cover;
         width: 80vw;
