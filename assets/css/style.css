@@ -23,13 +23,16 @@ header {
     background-color: #000000;
     padding: 0 1rem;
     position: fixed;
+    z-index: 98;
     width: 100%;
-    z-index: 99;
     box-shadow: 0 2px 3px #2e2e2e;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
 }
 
 header a {
-    color: inherit;
+    color: #fafafa;
     text-decoration: none;
 }
 
@@ -40,10 +43,53 @@ h1 {
     letter-spacing: 1px;
 }
 
+i {
+    z-index: 99;
+}
+
+/* Navbar with dropdown toggle */
+nav {
+    position: absolute;
+    background-color: #1a1a1a;
+    width: 100%;
+    box-shadow: 0 2px 3px #2e2e2e;
+    left: 0;
+    padding-left: 16px;
+    top: 100%;
+    display: none;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+#menu {
+    font-size: 115%;
+    list-style-type: none;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+
+#menu > li {
+    margin-bottom: 1em;
+}
+
+.selected {
+    border-bottom: 2px solid #727272;
+}
+
 /* Main content */
 main {
     background-color: pink;
-    /* Make  main take up any surplus space so the footer stays at the bottom of the page */ 
+    /* Make main take up any surplus space so the footer stays at the bottom of the page */ 
     flex: 1 0 auto;
 }
 
