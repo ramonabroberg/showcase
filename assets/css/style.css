@@ -64,8 +64,9 @@ nav {
 }
 
 .nav-toggle-label {
-    font-size: 4rem;
-    color: #fafafa;
+    font-size: 2rem;
+    z-index: 99;
+    align-self: center;
 }
 
 #menu {
@@ -91,7 +92,7 @@ main {
     margin-top: 44px;
 }
 
-/* Hero */
+/* Hero section home page*/
 #home-hero-img {
     background: url("../images/concert-audience4.jpg") no-repeat 70% / cover;
     width: 100%;
@@ -102,7 +103,7 @@ main {
 #title-text {
     background-color: #2900a43d;
     width: 90%;
-    height: 40%;
+    height: 70px;
 }
 
 #title-text > h2 {
@@ -110,7 +111,7 @@ main {
 }
 
 #find-concerts-button {
-
+    background-color: rgb(18, 0, 133);
 }
 
 /* Footer */
