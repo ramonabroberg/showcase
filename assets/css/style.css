@@ -14,7 +14,17 @@ body {
     display: flex;
     flex-direction: column;
     /* Generic styles */
-    color: #08063c;
+    color: #fafafa;
+    font-family: "Inter", sans-serif;
+}
+
+h1 {
+    font-family: "Stardos Stencil", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+h2, h3 {
     font-family: "Inter", sans-serif;
 }
 
@@ -31,16 +41,9 @@ header {
     justify-content: space-between;
 }
 
-header a {
+header > a {
     color: #fafafa;
     text-decoration: none;
-}
-
-h1 {
-    font-family: "Stardos Stencil", sans-serif;
-    color: #fafafa;
-    text-transform: uppercase;
-    letter-spacing: 1px;
 }
 
 /* Navbar with dropdown toggle */
@@ -98,27 +101,41 @@ main {
 
 /* Hero section home page*/
 #home-hero-img {
-    background: url("../images/concert-audience4.jpg") no-repeat 70% / cover;
+    background: url("../images/concert-audience4.jpg") no-repeat 65% / cover;
     width: 100%;
     height: 500px;
     position: relative;
 }
 
 #home-title-text {
-    background-color: #8c00ff52;
-    top: 2rem;
-    width: 80%;
-    padding: 1rem;
+    /* To add a purple shade to the hero image */
+    width: 100%;
+    height: 100%;
+    top: 1rem;
+    padding: 1.5rem 2rem;
     position: absolute;
 }
 
 #home-title-text > h2 {
-    font-size: 185%;
-    color: #fafafa;
+    font-size: 185%;;
+}
+
+#home-title-text > h3 {
+    color: #000837;
 }
 
 #find-concerts-button {
-    
+    background-color: #4f0e96;
+    padding: 0.8rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 30px;
+}
+
+#find-concerts-button a {
+    color: #fafafa;
+    text-decoration: none;
+    font-size: 120%;
 }
 
 /* Footer */
