@@ -43,10 +43,6 @@ h1 {
     letter-spacing: 1px;
 }
 
-i {
-    z-index: 99;
-}
-
 /* Navbar with dropdown toggle */
 nav {
     position: absolute;
@@ -91,6 +87,7 @@ main {
     background-color: pink;
     /* Make main take up any surplus space so the footer stays at the bottom of the page */ 
     flex: 1 0 auto;
+    margin-top: 44px;
 }
 
 /* Footer */
