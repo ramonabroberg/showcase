@@ -55,16 +55,17 @@ nav {
     display: none;
 }
 
-.nav-toggle-label {
-    font-size: 2rem;
-}
-
 #nav-toggle:checked~nav {
     display: block;
 }
 
 #nav-toggle {
     display: none;
+}
+
+.nav-toggle-label {
+    font-size: 4rem;
+    color: #fafafa;
 }
 
 #menu {
@@ -90,8 +91,8 @@ main {
     margin-top: 44px;
 }
 
-#background-image {
-    background: url("../images/concert-audience4.jpg") no-repeat 75% / cover;
+#home-background-img {
+    background: url("../images/concert-audience4.jpg") no-repeat 70% / cover;
     width: 100%;
     height: 500px;
     display: flex;
@@ -105,6 +106,10 @@ main {
 
 #title-text > h2 {
     font-size: 220%;
+}
+
+#find-concerts-button {
+    
 }
 
 /* Footer */
