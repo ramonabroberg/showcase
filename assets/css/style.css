@@ -41,7 +41,7 @@ header {
     justify-content: space-between;
 }
 
-header > a {
+header a {
     color: #fafafa;
     text-decoration: none;
 }
