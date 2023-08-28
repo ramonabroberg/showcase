@@ -146,6 +146,32 @@ main {
 #about-us {
     padding: 1rem;
     background-color: #010439;
+    display: flex;
+    flex-direction: column;
+}
+
+#about-us h2,
+#about-us h3 {
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+
+#goals {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0;
+}
+
+#goals li {
+    padding: 0.5rem;
+}
+
+#goals hr {
+    border: 2px solid #4f0e96d6;
+    width: 30%;
+    align-self: center;
+    border-radius: 50%;
 }
 
 #circle-img {
@@ -155,6 +181,8 @@ main {
         max-width: 450px;
         max-height: 450px;
         border-radius: 50%;
+        align-self: center;
+        margin: 1rem;
 }
 
 /* Footer */
