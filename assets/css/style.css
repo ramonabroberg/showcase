@@ -20,12 +20,24 @@ body {
 
 /* Header */
 header {
-    background-color: black;
+    background-color: #000000;
+    padding: 0 1rem;
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+    box-shadow: 0 2px 3px #2e2e2e;
+}
+
+header a {
+    color: inherit;
+    text-decoration: none;
 }
 
 h1 {
     font-family: "Stardos Stencil", sans-serif;
     color: #fafafa;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 /* Main content */
