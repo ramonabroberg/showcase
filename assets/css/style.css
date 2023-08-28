@@ -91,7 +91,8 @@ main {
     margin-top: 44px;
 }
 
-#home-background-img {
+/* Hero */
+#home-hero-img {
     background: url("../images/concert-audience4.jpg") no-repeat 70% / cover;
     width: 100%;
     height: 500px;
@@ -109,7 +110,7 @@ main {
 }
 
 #find-concerts-button {
-    
+
 }
 
 /* Footer */
