@@ -186,6 +186,16 @@ main {
 }
 
 /* Footer */
-footer {
-    background-color: purple;
+
+#social-media {
+    background-color: #4f0e96;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+    list-style-type: none;
+}
+
+#social-media i {
+    color: #fafafa;
+    font-size: 180%;
 }
