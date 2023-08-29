@@ -129,19 +129,24 @@ main {
     color: #000837;
 }
 
+/* Link designed to look like a button */
 #find-concerts-button {
     background-color: #4f0e96;
     padding: 0.8rem;
     margin-top: 1rem;
     border: none;
     border-radius: 30px;
-}
-
-#find-concerts-button a {
     color: #fafafa;
     text-decoration: none;
     font-size: 120%;
+    width: 10rem;
 }
+
+/* #find-concerts-button a {
+    color: #fafafa;
+    text-decoration: none;
+    font-size: 120%;
+} */
 
 #about-us {
     padding: 1rem;
