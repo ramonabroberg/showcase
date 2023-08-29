@@ -33,6 +33,11 @@ hr {
     width: 100%
 }
 
+a {
+    text-decoration: none;
+    color: #fafafa;
+}
+
 /* Header */
 header {
     background-color: #000000;
@@ -45,11 +50,6 @@ header {
     align-items: baseline;
     justify-content: space-between;
     border-top: 4px solid #4f0e96;
-}
-
-header a {
-    color: #fafafa;
-    text-decoration: none;
 }
 
 /* Navbar with dropdown toggle */
@@ -136,10 +136,8 @@ main {
     margin-top: 1rem;
     border: none;
     border-radius: 30px;
-    color: #fafafa;
-    text-decoration: none;
     font-size: 120%;
-    width: 10rem;
+    width: fit-content;
 }
 
 /* About us section */
@@ -174,13 +172,13 @@ main {
 /* Circle image at the bottom of the page */
 #circle-img {
     background: url("../images/live-audience.jpg") no-repeat center / cover;
-        width: 80vw;
-        height: 80vw;
-        max-width: 450px;
-        max-height: 450px;
-        border-radius: 50%;
-        align-self: center;
-        margin: 1rem;
+    width: 80vw;
+    height: 80vw;
+    max-width: 450px;
+    max-height: 450px;
+    border-radius: 50%;
+    align-self: center;
+    margin: 1rem;
 }
 
 /* Footer */
@@ -196,4 +194,34 @@ main {
 #social-media i {
     color: #fafafa;
     font-size: 180%;
+}
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+    #home-hero-img {
+        height: 240px;
+    }
+
+    #home-img-text {
+        width: 370px;
+        top: 0;
+    }
+
+    #home-img-text h3 {
+        width: 280px;
+        padding-top: 5px;
+    }
+
+    #find-concerts-button {
+        padding: 0.6rem;
+        font-size: 100%;
+    }
+/*
+    #about-us {
+        margin: 0 8rem;
+    }*/
+
+    #goals {
+        margin: 0.5rem 4rem;
+    }
 }
