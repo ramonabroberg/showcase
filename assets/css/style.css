@@ -142,17 +142,13 @@ main {
     width: 10rem;
 }
 
-/* #find-concerts-button a {
-    color: #fafafa;
-    text-decoration: none;
-    font-size: 120%;
-} */
-
+/* About us section */
 #about-us {
-    padding: 1rem;
+    padding: 1.5rem;
     background-color: #010439;
     display: flex;
     flex-direction: column;
+    text-align: center;
 }
 
 #about-us h2,
@@ -162,14 +158,9 @@ main {
 }
 
 #goals {
-    list-style-type: none;
     display: flex;
     flex-direction: column;
     margin: 1rem 0;
-}
-
-#goals li {
-    padding: 0.5rem;
 }
 
 #goals hr {
@@ -177,8 +168,10 @@ main {
     width: 30%;
     align-self: center;
     border-radius: 50%;
+    margin: 0.7rem
 }
 
+/* Circle image at the bottom of the page */
 #circle-img {
     background: url("../images/live-audience.jpg") no-repeat center / cover;
         width: 80vw;
