@@ -88,9 +88,21 @@ nav {
 
 #sign-up {
     background-color: #bc0000;
-    padding: 5px;
+    padding: 3px;
     border-radius: 6px;
     font-weight: 300;
+}
+
+#sign-up:active {
+    background-color: #744545;
+}
+
+#sign-up-selected {
+    background-color: #744545;
+    padding: 3px;
+    border-radius: 6px;
+    font-weight: 300;
+    border-bottom: 3px solid #4f0e96;
 }
 
 .selected {
@@ -103,7 +115,7 @@ main {
     /* Make main take up any surplus space so the footer stays at the bottom of the page */ 
     flex: 1 0 auto;
     /* Add margin at the top of the page so the header doesn't hide thee content */
-    margin-top: 44px;
+    margin-top: 42px;
     /* To makae it possible with flex for child elements */ 
     display: flex;
     flex-direction: column;
