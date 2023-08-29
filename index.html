@@ -22,59 +22,62 @@
     <!-- Header -->
     <header>
         <!-- Logo -->
-        <a href="index.html"><h1 id="logo">Showcase</h1></a>
+        <a href="index.html" class="standard-link"><h1 class="logo">Showcase</h1></a>
         <!-- Nav toggle with menu icon -->
         <input type="checkbox" id="nav-toggle" name="nav-toggle">
         <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars" style="color: #fafafa;"></i></label>
         <!-- Dropdown menu, class selected shows that you are on the home page  -->
-        <nav>
-            <ul id="menu">
-                <li><a href="index.html" class="selected">HOME</a></li>
-                <li><a href="concerts.html">CONCERTS</a></li>
-                <li><a href="signup.html" id="sign-up">Sign up!</a></li>
+        <nav class="nav">
+            <ul class="menu">
+                <li><a href="index.html" class="selected standard-link">HOME</a></li>
+                <li><a href="#concerts-hero-img" class="standard-link">CONCERTS</a></li>
+                <li><a href="signup.html" class="sign-up standard-link">Sign up!</a></li>
             </ul>
         </nav>
     </header>
 
     <!-- Main content -->
     <main>
-        <!-- Hero image with text -->
-        <section id="home-hero-img" title="Image of a concert">
-            <div id="home-img-text">
+        <!-- Home page - Hero image -->
+        <section class="home-hero-img" title="Image of a concert">
+            <div class="home-img-text">
                 <h2>You enjoy live music? Say no more!</h2>
                 <h3>We have gathered all events so you don't need to!</h3>
                 <!-- Link to the Concerts page -->
-                <a href="concerts.html">
-                    <p id="find-concerts-button">Find concerts! <i class="fa-solid fa-arrow-right" style="color: #fafafa;"></i></p>
+                <a href= "#concerts-hero-img" class="standard-link">
+                    <p class="find-concerts-button">Find concerts! <i class="fa-solid fa-arrow-right" style="color: #fafafa;"></i></p>
                 </a>
             </div>
         </section>
 
         <!-- About Us section-->
         <section>
-            <div id="about-us">
+            <div class="about-us">
                 <h2>About us</h2>
                 <h3>Showcase has been around since 2013 with a strong vision!</h3>
-                <div id="goals">
+                <div class="goals">
                     <hr>
-                    <p>We want to make it easier for you to find concerts and events anytime, anywhere.</p>
-                    <hr>
-                    <p>We want you to find everything you need in the same place so you can spend your
-                    time on more enjoyable things than chasing tickets.</p>
-                    <hr>
-                    <p>We want to offer the best deals possible so nothing can stop you from seeing your favorite band.</p>
-                    <hr>
-                    <p>We want it to feel easy and fun to find and reserv tickets for the next gig you want to go to!</p>
+                    <p>
+                        We want to make it easier for you to find concerts and events anytime, anywhere. We want you to find everything you need in the same place so you can spend your time on more enjoyable things than chasing tickets. We want to offer the best deals possible so nothing can stop you from seeing your favorite band. We want it to feel easy and fun to find and reserv tickets for the next gig you want to go to!
+                    </p>
                     <hr>
                 </div>
-                <div id="circle-img" title="Image of a cheering audience at a concert"></div>
+                <!-- <div class="circle-img" title="Image of a cheering audience at a concert"></div> -->
+            </div>
+        </section>
+
+        <!-- Concerts page -->
+        <section id="concerts-hero-img">
+            <div class="concerts-title-text">
+                <h2>Concerts</h2>
+                <h3>Find the ultimate concert just for you. We have it all!</h3>
             </div>
         </section>
     </main>
 
     <!-- Footer -->
     <footer>
-        <ul id="social-media">
+        <ul class="social-media">
             <li><a href="https://www.facebook.com/" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tab)"><i class="fa-brands fa-facebook"></i></a></li>
             <li><a href="https://www.instagram.com/" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tab)"><i class="fa-brands fa-instagram"></i></a></li>
             <li><a href="https://www.youtube.com/" target="_blank" rel="noopener" aria-label="Visit our Youtube channel (opens in a new tab)"><i class="fa-brands fa-square-youtube"></i></a></li>

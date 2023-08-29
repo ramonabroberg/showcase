@@ -10,19 +10,11 @@
 
 /* General styles */
 body {
-    min-height: 100vh;
     display: flex;
     flex-direction: column;
     /* Generic styles */
     color: #fafafa;
     font-family: "Inter", sans-serif;
-}
-
-a {
-    text-decoration: none;
-    color: #fafafa;
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
 }
 
 /* Header */
@@ -36,17 +28,28 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top: 4px solid #4f0e96;
+    border-top:s 4px solid #4f0e96;
 }
 
-#logo {
+.line-height {
+    line-height: ;
+}
+
+.standard-link {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+.logo {
     font-family: "Stardos Stencil", sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
 }
 
 /* Navbar with dropdown toggle */
-nav {
+.nav {
     position: absolute;
     background-color: #1a1a1a;
     width: 100%;
@@ -57,12 +60,12 @@ nav {
     display: none;
 }
 
-#nav-toggle:checked~nav {
-    display: block;
-}
-
 #nav-toggle {
     display: none;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
 }
 
 .nav-toggle-label {
@@ -71,33 +74,33 @@ nav {
     align-self: center;
 }
 
-#menu {
+.menu {
     font-size: 115%;
     list-style-type: none;
     letter-spacing: 2px;
     padding-top: 10px;
 }
 
-#menu > li {
+.menu > li {
     margin-bottom: 1em;
 }
 
-#menu a {
+.menu a {
     font-weight: 400;
 }
 
-#sign-up {
+.sign-up {
     background-color: #bc0000;
     padding: 3px;
     border-radius: 6px;
     font-weight: 300;
 }
 
-#sign-up:active {
+.sign-up:active {
     background-color: #744545;
 }
 
-#sign-up-selected {
+.sign-up-selected {
     background-color: #4f0e96;
     padding: 3px;
     border-radius: 6px;
@@ -110,43 +113,39 @@ nav {
 
 /* Main content */
 main {
-    background-color: #6794fe;
-    /* Make main take up any surplus space so the footer stays at the bottom of the page */ 
-    flex: 1 0 auto;
-    /* Add margin at the top of the page so the header doesn't hide thee content */
-    margin-top: 42px;
-    /* To makae it possible with flex for child elements */ 
+    background-color: #010439;
     display: flex;
+    flex: 1 0 auto;
+    margin-top: 42px;
     flex-direction: column;
 }
 
-/* HOME PAGE - Hero section */
-#home-hero-img {
+/* HOME PAGE - Hero image */
+.home-hero-img {
     background: url("../images/concert-audience4.jpg") no-repeat 62% / cover;
     width: 100%;
     height: 500px;
     position: relative;
 }
 
-#home-img-text {
-    /* To add a purple shade to the hero image */
+.home-img-text {
     width: 90%;
     top: 1rem;
     padding: 1rem 2rem 0 1.5rem;
     position: absolute;
 }
 
-#home-img-text > h2 {
+.home-img-text > h2 {
     font-size: 185%;
     margin-bottom: 0.5rem;
 }
 
-#home-img-text > h3 {
+.home-img-text > h3 {
     color: #000837;
 }
 
 /* Link designed to look like a button */
-#find-concerts-button {
+.find-concerts-button {
     background-color: #4f0e96;
     padding: 0.8rem;
     margin-top: 1rem;
@@ -157,7 +156,7 @@ main {
 }
 
 /* HOME PAGE - About us section */
-#about-us {
+.about-us {
     background-color: #010439;
     display: flex;
     flex-direction: column;
@@ -165,17 +164,18 @@ main {
     padding-top: 1rem;
 }
 
-#about-us h3 {
+.about-us h3 {
     padding: 0.5rem 1rem;
 }
 
-#goals {
+.goals {
     display: flex;
     flex-direction: column;
     margin: 0 1.3rem 1rem 1.3rem;
+    line-height: 25px;
 }
 
-#goals hr {
+.goals hr {
     border: 2px solid #4f0e96d6;
     width: 30%;
     align-self: center;
@@ -183,9 +183,8 @@ main {
     margin: 0.8rem
 }
 
-/* HOME PAGE - Circle image at the bottom of the page */
-#circle-img {
-    background: url("../images/bass-player.jpg") no-repeat center / cover;
+.circle-img {
+    background: url("../images/concert-audience3.jpg") no-repeat center / cover;
     width: 100%;
     height: 70vw;
     max-width: 450px;
@@ -193,7 +192,7 @@ main {
     align-self: center;
 }
 
-/* CONCERTS PAGE - Main content */
+/* CONCERTS PAGE - Image */
 #concerts-hero-img {
     background: url("../images/bass-player.jpg") no-repeat 60% / cover;
     width: 100%;
@@ -203,13 +202,13 @@ main {
     position: relative;
 }
 
-#concerts-title-text {
+.concerts-title-text {
     position: absolute;
     font-size: 170%;
 }
 
-/* SIGN UP page - Main content */
-#sign-up-img {
+/* SIGN UP PAGE - Image */
+.sign-up-img {
     background: url("../images/drum-set.jpg") no-repeat center / cover;
     height: 600px;
     display: flex;
@@ -217,13 +216,13 @@ main {
     position: relative;
 }
 
-#sign-up-img-text {
+.sign-up-img-text {
     position: absolute;
 }
 
 /* Footer */
 
-#social-media {
+.social-media {
     background-color: #4f0e96;
     display: flex;
     justify-content: space-evenly;
@@ -231,7 +230,7 @@ main {
     list-style-type: none;
 }
 
-#social-media i {
+.social-media i {
     color: #fafafa;
     font-size: 180%;
 }
@@ -239,26 +238,26 @@ main {
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
     /* Main content */
-    #home-hero-img {
+    .home-hero-img {
         height: 320px;
     }
 
-    #home-img-text {
+    .home-img-text {
         width: 370px;
         left: 2rem;
     }
 
-    #home-img-text h3 {
+    .home-img-text h3 {
         width: 280px;
         padding-top: 5px;
     }
 
-    #find-concerts-button {
+    .find-concerts-button {
         padding: 0.6rem;
         font-size: 100%;
     }
 
-    #goals {
+    .goals {
         margin: 0.5rem 4rem;
     }
 }
@@ -266,16 +265,15 @@ main {
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
     /* Header */
-
     main {
         margin-top: 61px;
     }
 
-    #menu {
+    .menu {
         display: flex;
     }
     
-    #menu li {
+    .menu li {
         padding-left: 1rem;
     }
 
@@ -291,22 +289,22 @@ main {
         display: none;
     }
 
-    #logo {
+    .logo {
         font-size: 260%;
     }
 
     /* Main content */
-    #home-img-text {
+    .home-img-text {
         top: 2rem;
         left: 3rem
     }
 
-    #find-concerts-button {
+    .find-concerts-button {
         padding: 0.8rem;
         font-size: 120%;
     }
 
-    #goals {
+    .goals {
         margin: 0.5rem 6rem;
     }
 
