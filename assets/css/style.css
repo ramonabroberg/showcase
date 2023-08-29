@@ -82,6 +82,17 @@ nav {
     margin-bottom: 1em;
 }
 
+#menu a {
+    font-weight: 400;
+}
+
+#sign-up {
+    background-color: #bc0000;
+    padding: 5px;
+    border-radius: 6px;
+    font-weight: 300;
+}
+
 .selected {
     border-bottom: 3px solid #4f0e96;
 }
