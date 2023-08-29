@@ -18,12 +18,6 @@ body {
     font-family: "Inter", sans-serif;
 }
 
-h1 {
-    font-family: "Stardos Stencil", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-}
-
 h2, h3 {
     font-family: "Inter", sans-serif;
 }
@@ -47,9 +41,15 @@ header {
     width: 100%;
     box-shadow: 0 2px 3px #2e2e2e;
     display: flex;
-    align-items: baseline;
+    align-items: center;
     justify-content: space-between;
     border-top: 4px solid #4f0e96;
+}
+
+#logo {
+    font-family: "Stardos Stencil", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
 }
 
 /* Navbar with dropdown toggle */
@@ -107,7 +107,7 @@ main {
 
 /* Hero section home page*/
 #home-hero-img {
-    background: url("../images/concert-audience4.jpg") no-repeat 65% / cover;
+    background: url("../images/concert-audience4.jpg") no-repeat 62% / cover;
     width: 100%;
     height: 500px;
     position: relative;
@@ -115,14 +115,15 @@ main {
 
 #home-img-text {
     /* To add a purple shade to the hero image */
-    width: 100%;
+    width: 90%;
     top: 1rem;
-    padding: 1.5rem 2rem;
+    padding: 1rem 2rem 0 1.5rem;
     position: absolute;
 }
 
 #home-img-text > h2 {
-    font-size: 185%;;
+    font-size: 185%;
+    margin-bottom: 0.5rem;
 }
 
 #home-img-text > h3 {
@@ -149,9 +150,7 @@ main {
     text-align: center;
 }
 
-#about-us h2,
-#about-us h3 {
-    text-align: center;
+#about-us h2, #about-us h3 {
     padding-bottom: 0.5rem;
 }
 
@@ -198,8 +197,9 @@ main {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
+    /* Main content */
     #home-hero-img {
-        height: 240px;
+        height: 320px;
     }
 
     #home-img-text {
@@ -216,12 +216,58 @@ main {
         padding: 0.6rem;
         font-size: 100%;
     }
-/*
-    #about-us {
-        margin: 0 8rem;
-    }*/
 
     #goals {
         margin: 0.5rem 4rem;
     }
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+    /* Header */
+
+    main {
+        margin-top: 61px;
+    }
+
+    #menu {
+        display: flex;
+    }
+    
+    #menu li {
+        padding-left: 1rem;
+    }
+
+    nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        background-color: #000000;
+        box-shadow: none;
+    }
+    
+    .nav-toggle-label {
+        display: none;
+    }
+
+    #logo {
+        font-size: 260%;
+    }
+
+    /* Main content */
+    #home-img-text {
+        top: 2rem;
+        left: 3rem
+    }
+
+    #find-concerts-button {
+        padding: 0.8rem;
+        font-size: 120%;
+    }
+
+    #goals {
+        margin: 0.5rem 6rem;
+    }
+
+    /* Footer */
 }
