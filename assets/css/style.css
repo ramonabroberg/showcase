@@ -17,6 +17,12 @@ body {
     font-family: "Inter", sans-serif;
 }
 
+.standard-link {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: "Inter", sans-serif;
+}
+
 /* Header */
 header {
     background-color: #000000;
@@ -28,18 +34,11 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-top:s 4px solid #4f0e96;
+    border-top: 4px solid #4f0e96;
 }
 
 .line-height {
-    line-height: ;
-}
-
-.standard-link {
-    text-decoration: none;
-    color: #fafafa;
-    font-family: "Inter", sans-serif;
-    font-weight: 600;
+    line-height: 25%;
 }
 
 .logo {
@@ -90,17 +89,6 @@ header {
 }
 
 .sign-up {
-    background-color: #bc0000;
-    padding: 3px;
-    border-radius: 6px;
-    font-weight: 300;
-}
-
-.sign-up:active {
-    background-color: #744545;
-}
-
-.sign-up-selected {
     background-color: #4f0e96;
     padding: 3px;
     border-radius: 6px;
@@ -155,6 +143,13 @@ main {
     width: fit-content;
 }
 
+.button-link {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
 /* HOME PAGE - About us section */
 .about-us {
     background-color: #010439;
@@ -194,9 +189,9 @@ main {
 
 /* CONCERTS PAGE - Image */
 #concerts-hero-img {
-    background: url("../images/bass-player.jpg") no-repeat 60% / cover;
+    background: url("../images/bass-player.jpg") no-repeat 15% / cover;
     width: 100%;
-    height: 500px;
+    height: 300px;
     display: flex;
     flex-direction: column;
     position: relative;
@@ -204,7 +199,14 @@ main {
 
 .concerts-title-text {
     position: absolute;
-    font-size: 170%;
+    font-size: 180%;
+    padding: 1rem 3rem 0 1rem;
+    margin: 5%;
+    top: 2rem;
+}
+
+.concerts-title-text > h3 {
+    font-size: 70%;
 }
 
 /* SIGN UP PAGE - Image */
@@ -277,7 +279,7 @@ main {
         padding-left: 1rem;
     }
 
-    nav {
+    .nav {
         display: block;
         position: relative;
         width: fit-content;
