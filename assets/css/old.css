@@ -1,0 +1,336 @@
+/* Import from Google fonts */
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Stardos+Stencil:wght@400;700&display=swap");
+
+/* Asterisk wildcard selector so it will override default styles that's added by the browser */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* General styles */
+body {
+    display: flex;
+    flex-direction: column;
+    /* Generic styles */
+    color: #fafafa;
+    font-family: "Inter", sans-serif;
+}
+
+.standard-link {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: "Inter", sans-serif;
+}
+
+/* Header */
+header {
+    background-color: #000000;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 98;
+    width: 100%;
+    box-shadow: 0 2px 3px #2e2e2e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 4px solid #4f0e96;
+}
+
+.line-height {
+    line-height: 25%;
+}
+
+.logo {
+    font-family: "Stardos Stencil", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Navbar with dropdown toggle */
+.nav {
+    position: absolute;
+    background-color: #1a1a1a;
+    width: 100%;
+    box-shadow: 0 2px 3px #2e2e2e;
+    left: 0;
+    padding-left: 16px;
+    top: 100%;
+    display: none;
+}
+
+#nav-toggle {
+    display: none;
+}
+
+#nav-toggle:checked~nav {
+    display: block;
+}
+
+.nav-toggle-label {
+    font-size: 2rem;
+    z-index: 99;
+    align-self: center;
+}
+
+.menu {
+    font-size: 115%;
+    list-style-type: none;
+    letter-spacing: 2px;
+    padding-top: 10px;
+}
+
+.menu>li {
+    margin-bottom: 1em;
+}
+
+.menu a {
+    font-weight: 300;
+    font-size: 90%;
+}
+
+.sign-up {
+    background-color: #4f0e96;
+    padding: 3px;
+    border-radius: 6px;
+    font-weight: 300;
+}
+
+.selected {
+    border-bottom: 3px solid #4f0e96;
+}
+
+/* Main content */
+main {
+    background-color: #010439;
+    display: flex;
+    flex: 1 0 auto;
+    margin-top: 42px;
+    flex-direction: column;
+}
+
+/* HOME PAGE - Hero image */
+.home-hero-img {
+    background: url("../images/concert-audience4.jpg") no-repeat 62% / cover;
+    width: 100%;
+    height: 500px;
+    position: relative;
+}
+
+.home-img-text {
+    width: 90%;
+    top: 1rem;
+    padding: 1rem 2rem 0 1.5rem;
+    position: absolute;
+}
+
+.home-img-text>h2 {
+    font-size: 185%;
+    margin-bottom: 0.5rem;
+}
+
+.home-img-text>h3 {
+    color: #000837;
+}
+
+/* Link designed to look like a button */
+.find-concerts-button {
+    background-color: #4f0e96;
+    padding: 0.8rem;
+    margin-top: 1rem;
+    border: none;
+    border-radius: 30px;
+    font-size: 110%;
+    width: fit-content;
+}
+
+.button-link {
+    text-decoration: none;
+    color: #fafafa;
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+}
+
+/* HOME PAGE - About us section */
+.about-us {
+    background-color: #010439;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.about-us h3 {
+    padding: 0.5rem 1rem;
+}
+
+.goals {
+    display: flex;
+    flex-direction: column;
+    margin: 0 1.3rem 1rem 1.3rem;
+    line-height: 25px;
+}
+
+.goals hr {
+    border: 2px solid #4f0e96d6;
+    width: 30%;
+    align-self: center;
+    border-radius: 50%;
+    margin: 0.8rem;
+}
+
+.circle-img {
+    background: url("../images/concert-audience3.jpg") no-repeat center / cover;
+    width: 100%;
+    height: 70vw;
+    max-width: 450px;
+    max-height: 250px;
+    align-self: center;
+}
+
+/* CONCERTS PAGE - Image */
+.concerts-hero-img {
+    background: url("../images/bass-player.jpg") no-repeat 15% / cover;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.concerts-title-text {
+    position: absolute;
+    font-size: 180%;
+    padding: 1rem 3rem 0 1rem;
+    margin: 5%;
+    top: 2rem;
+}
+
+.concerts-title-text>h3 {
+    font-size: 70%;
+}
+
+.fa-solid {
+    font-weight: 900;
+    padding: 0.5rem 0 0 4rem;
+    color: #fafafa;
+}
+
+.concerts {
+    background-color: #2964e4;
+}
+
+.concerts h2 {
+    padding: 1rem;
+    text-align: center;
+}
+
+.concerts div {
+    padding: 1rem 2rem;
+}
+
+/* SIGN UP PAGE - Image */
+.sign-up-img {
+    background: url("../images/drum-set.jpg") no-repeat center / cover;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.sign-up-img-text {
+    position: absolute;
+}
+
+/* Footer */
+
+.social-media {
+    background-color: #4f0e96;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 1rem 0;
+    list-style-type: none;
+}
+
+.social-media i {
+    color: #fafafa;
+    font-size: 180%;
+}
+
+/* Media query: large or landscape phones (576px and up) */
+@media screen and (min-width: 576px) {
+
+    /* Main content */
+    .home-hero-img {
+        height: 320px;
+    }
+
+    .home-img-text {
+        width: 370px;
+        left: 2rem;
+    }
+
+    .home-img-text h3 {
+        width: 280px;
+        padding-top: 5px;
+    }
+
+    .find-concerts-button {
+        padding: 0.6rem;
+        font-size: 100%;
+    }
+
+    .goals {
+        margin: 0.5rem 4rem;
+    }
+}
+
+/* Media query: tablets and larger (768px and up) */
+@media screen and (min-width: 768px) {
+
+    /* Header */
+    main {
+        margin-top: 61px;
+    }
+
+    .menu {
+        display: flex;
+    }
+
+    .menu li {
+        padding-left: 1rem;
+    }
+
+    .nav {
+        display: block;
+        position: relative;
+        width: fit-content;
+        background-color: #000000;
+        box-shadow: none;
+    }
+
+    .nav-toggle-label {
+        display: none;
+    }
+
+    .logo {
+        font-size: 260%;
+    }
+
+    /* Main content */
+    .home-img-text {
+        top: 2rem;
+        left: 3rem;
+    }
+
+    .find-concerts-button {
+        padding: 0.8rem;
+        font-size: 120%;
+    }
+
+    .goals {
+        margin: 0.5rem 6rem;
+    }
+
+    /* Footer */
+}
