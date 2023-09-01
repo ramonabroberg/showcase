@@ -215,5 +215,6 @@ Error message when it's not an email address:
 
 ### Acknowledgments
 
-- My mentor Medale Oluwafemi for very good pointers and tips to take it in the right direction and to recommend changing it to a single page website.
+- My mentor Medale Oluwafemi for very good pointers and tips to take it in the right direction and to recommend me changing it to a single page website.
+- [This](https://github.com/anjalee-kulasinghe/portfolio-project1-cv-website/blob/main/README.md?fbclid=IwAR2XTIQeqQrWibjSwd0fO8YrDZE3IRgx_UgN8RBZQE7GnYp5DhYiINi9ScA#bugs) README file to go from when creating my own as a tip from my mentor.
 - To remember how to make the dropdown menu and for help getting started I took inspiration from Code Institute's [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main) project.
