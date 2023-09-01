@@ -67,7 +67,7 @@ The website is designed to be easy to understand and navigate. The information o
 
 The wireframe is designed using Balsamiq software and is displayed as one long page with the different sections of the website on top of each other.
 
-#### [Click here](assets/readme/wireframe.png) to see the wireframe
+__[Click here](assets/readme/wireframe.png) to see the wireframe__
 
 ## Surface
 
@@ -163,6 +163,7 @@ Error message when it's not an email address:
 - I would like to start selling the tickets directly from the page so it no longer would link to other sites but instead handling the tickets and payment directly on the website.
 - I would like for some parts to be a video background instead of all images.
 - I would like the menu on small devices to hide when you choose a menu option so it doesn't stay open.
+- Improve the performance of the page and test different formats of the images.
 
 # Testing
 
