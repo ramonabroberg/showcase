@@ -247,6 +247,7 @@ main {
     box-shadow: 2px 2px 3px #000;
     width: fit-content;
     margin: 0 auto;
+    text-decoration: none;
 }
 
 /* SIGN UP PAGE */
