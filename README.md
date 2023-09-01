@@ -213,7 +213,7 @@ Error message when it's not an email address:
 - The favicon was made using [Favicon](<https://favicon.io/>).
 - The color palette was made from [Coolors](https://coolors.co/).
 
-### Acknowledgments:
+### Acknowledgments
 
 - My mentor Medale Oluwafemi for very good pointers and tips to take it in the right direction and to recommend changing it to a single page website.
 - To remember how to make the dropdown menu and for help getting started I took inspiration from Code Institute's [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main) project.

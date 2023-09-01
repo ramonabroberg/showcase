@@ -111,7 +111,7 @@ main {
     flex-direction: column;
 }
 
-/* HOME PAGE - Hero image */
+/* Home page - Hero image */
 .home-hero-img {
     background: url("../images/live-gig.jpg") no-repeat 62% / cover;
     width: 100%;
@@ -136,7 +136,6 @@ main {
     color: #000837;
 }
 
-/* Link designed to look like a button */
 .find-concerts-button {
     background-color: #4f0e96;
     padding: 0.8rem;
@@ -154,7 +153,7 @@ main {
     font-weight: 600;
 }
 
-/* HOME PAGE - About us section */
+/* Home page - About us section */
 .about-us {
     background-color: #010439;
     display: flex;
@@ -182,13 +181,11 @@ main {
     margin: 0.8rem;
 }
 
-/* CONCERTS PAGE - Image */
+/* Concerts page */
 #concerts-hero-img {
     background: url("../images/bass-player.jpg") no-repeat 15% / cover;
     width: 100%;
     height: 300px;
-    /* display: flex;
-    flex-direction: column; */
 }
 
 .concerts-title-text {
@@ -247,7 +244,7 @@ main {
     text-decoration: none;
 }
 
-/* SIGN UP PAGE */
+/* Sign up page */
 #sign-up {
     background: url("../images/drum-set.jpg") no-repeat center / cover;
     height: 350px;
@@ -308,8 +305,7 @@ footer {
 
 /* Media query: large or landscape phones (576px and up) */
 @media screen and (min-width: 576px) {
-
-    /* Main content */
+    /* Home */
     .home-hero-img {
         height: 320px;
     }
@@ -324,24 +320,20 @@ footer {
         padding-top: 5px;
     }
 
+    .goals {
+        margin: 0.5rem 4rem;
+    }
+
+    /* Concerts */
     .find-concerts-button {
         padding: 0.6rem;
         font-size: 100%;
-    }
-
-    .goals {
-        margin: 0.5rem 4rem;
     }
 }
 
 /* Media query: tablets and larger (768px and up) */
 @media screen and (min-width: 768px) {
-
     /* Header */
-    main {
-        margin-top: 61px;
-    }
-
     .menu {
         display: flex;
     }
@@ -366,7 +358,12 @@ footer {
         font-size: 260%;
     }
 
-    /* Main content */
+    /* Main */
+    main {
+        margin-top: 61px;
+    }
+    
+    /* Home */
     .home-img-text {
         top: 2rem;
         left: 3rem;
@@ -377,6 +374,11 @@ footer {
         color: #fafafa;
     }
 
+    .goals {
+        margin: 0.5rem 6rem;
+    }
+
+    /* Concerts */
     .concerts-title-text {
         padding: 1rem 0 0 1rem;
     }
@@ -386,10 +388,7 @@ footer {
         font-size: 120%;
     }
 
-    .goals {
-        margin: 0.5rem 6rem;
-    }
-
+    /* Sign up */
     .sign-up-text {
         margin: 0 auto;
         font-size: large;
@@ -410,6 +409,7 @@ footer {
 
 /* Large devices (laptops and desktops, 992px and up) */
 @media screen and (min-width: 992px) {
+    /* Sign up */
     #sign-up {
         height: 400px;
     }
