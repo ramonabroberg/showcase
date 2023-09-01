@@ -53,8 +53,7 @@ __Sections of the website:__
   - On the hero image there is a descriptive text so the users instantly know what the website is all about.
   - A button that links to the Concerts section to make it extra easy for the users to find the information they're looking for.
   - About us section that has information about Showcase to make the users trust the website and feel secure.
-
-
+  
 - __CONCERTS__
   - Concerts listed and styled so it's easy to read and find the information the users are looking for.
   - Each event has a button that links to the specific website that sells the tickets.
@@ -88,7 +87,7 @@ _Color palette:_
 
 # Features
 
-## Existing features:
+## Existing features
 
 ### __Navigation__
 
@@ -162,27 +161,45 @@ Error message when it's not an email address:
 
 - In the future I would like to include a search bar both in the navigation bar and in the Concerts section so users easily can search for different kinds of events instead of scrolling through the list.
 - I would like to start selling the tickets directly from the page so it no longer would link to other sites but instead handling the tickets and payment directly on the website.
-- I would like for some parts to be a video background instead of all images. 
+- I would like for some parts to be a video background instead of all images.
+- I would like the menu on small devices to hide when you choose a menu option so it doesn't stay open.
 
 # Testing
 
+- The website is tested and works in multiple web browsers: Google Chrome, Microsoft Edge and Firefox.
+- It works on mobile devices such as Google Chrome on Android devices and Safari on iPhone.
+- The website is responsive and well-functioning on diferrent screen sizes, which is tested by using it on several devices but also Chrome DevTools to see how it adjusts through the different sizes.
+- The navigation bar stays at the top of the page and all the links works correctly.
+- The button "Find concerts!" links to the Concerts section.
+- The buttons on every concert links to the right site in a new tab.
+- The form works by entering an email address. The email address field is required and it won't accept anything but an email address.
+- The social media icons link to their websites in a new tab.
+- The text on the website is easy to read and the colors show good contrast and work well together.
+- The layout is correct so nothing is out of place.
+
 ## Validator testing
 
-- __HTML:__ No errors were returned when passing through the official W3C Validator. [Results here](assets/readme/html-validated.png)
+- __HTML:__ No errors were returned by the official W3C Validator. [Results here](assets/readme/html-validated.png)
   
-- __CSS:__ No errors were found when passing through the official Jigsaw Validator. [Results here](assets/readme/css-validated.png)
+- __CSS:__ No errors were found by the official Jigsaw Validator. [Results here](assets/readme/css-validated.png)
 
 ## Bugs
 
-### Solved bugs
+- ### Solved bugs
+  
+  - In the beginning the icons from Font Awesome didn't work but then I realized that the link at the bottom of of the html file was missing. I added it and that fixed the problem.
+  - The W3C Validator complained about that a button had a link in it so I changed it from a button to a link that I styled as a button which was approved.
+  - After a while the website looked strange on small screen sizes which turned out to be due to the form being too wide to fit on the page. It was solved by styling the form to fit on the page as planned.
 
-### Unfixed bugs
+- ### Unfixed bugs
+  
+  - No known unfixed bugs.
 
 # Deployment
 
-#### The site was deployed to Git Hub pages using the following steps:
+#### The site was deployed to Git Hub pages using the following steps
 
-- In the Github repository, the Stetting tab.
+- In the Github repository, click on the Settings tab.
 - Under General, navigate to Code and Automation and select 'Pages'.
 - In the Build and Deployment section for Source, select 'Deploy from a branch' from the drop-down list.
 - For Branch, select 'main' from the drop-down list and Save.
@@ -191,8 +208,11 @@ Error message when it's not an email address:
 
 # Credits
 
-## Content
-
 ## Media
 
+- The images used is taken from [Unsplash](https://unsplash.com/).
+- The favicon was made 
+
 ## Acknowledgments
+
+- To remember how to make the dropdown menu and for help getting started I took inspiration from Code Institute's [Love Running](https://github.com/Code-Institute-Solutions/love-running-2.0-sourcecode/tree/main) project.
