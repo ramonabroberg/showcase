@@ -16,22 +16,69 @@ The website also has information about Showcase and the vision behind it all. Us
 
 # User stories
 
+The goals is as follows:
 
-
-- They want to use a user-friendly website that feels safe and easy to navigate.
-- They want to find all tickets and information they need  from the same page instead of having to look everythere to be able to get the tickets they want.
+- The users want a user-friendly website that feels safe and easy to navigate no matter what kind of device they're using.
+- The users want a good first impression of the website.
+- The users want to be able to understand the purpose of the website from the start.
+- The users want to easily find upcoming concerts and events and feel asured that they're nt missing out on something.
+- The users want to quickly be able to see information about band/artist, time & place and tickets prices.
+- The users want to find all tickets and information they need from the same page instead of having to look on multiple websites to find the tickets they want.
+- The users want to be able to contact Showcase if they have any questions.
 
 ## Strategy
 
+The goal is to create a user-friendly and easily accessible website that appeals to the user. It should be easy to navigate and to understand where the information you want is located.
+
+The main focus of the website is the list of available concerts and events so it should be easy for the user to get there.
+
+The users should also feel included and that they're not missing any events.
+
 ## Scope
+
+The users should easy find the section where upcoming concerts is located.
+
+The listed concerts should link to the page selling the tickets in a new tab so the users still stay on the website.
+
+To make the users feel included they should be able to sign up for a newsletter that gives them updates about upcoming events.
 
 ## Structure
 
+The website has a single page design. The navigation is fixed at the top so it's always visible and it has links to the different sections of the website that can be used from anywhere on the page.
+
+__Sections of the website:__
+
+- __HOME__
+  - Hero image to get the users attention.
+  - On the hero image there is a descriptive text so the users instantly know what the website is all about.
+  - A button that links to the Concerts section to make it extra easy for the users to find the information they're looking for.
+  - About us section that has information about Showcase to make the users trust the website and feel secure.
+
+
+- __CONCERTS__
+  - Concerts listed and styled so it's easy to read and find the information the users are looking for.
+  - Each event has a button that links to the specific website that sells the tickets.
+
+- __Sign up!__
+  - A form that makes it possible for users to sign up to the newsletter. The form only asks for an email address and it's mandatory. It doesn't accept anything but an email adress and will inform the user about it if it's not.
+
 ## Skeleton
 
-[__Click here to see the wireframe__](assets/readme/wireframe.png)
+The website is designed to be easy to understand and navigate. The information on the website are placed in a ranking order with the most important at the top and then gradually goes down as you go further down the page.
+
+The wireframe is designed using Balsamiq software and is displayed as one long page with the different sections of the website on top of each other.
+
+#### [Click here](assets/readme/wireframe.png) to see the wireframe
 
 ## Surface
+
+The fonts used is Stardos Stencil for the navigation title and Inter for the rest of the text on the website.
+
+The color palette is in blue and purple shades as a consistent theme to give the user a comforting feeling of the website. Details and fonts are in black and white.
+
+_Color palette:_
+
+![Color palette for the website](assets/readme/color-palette.png)
 
 # Technologies
 
@@ -41,9 +88,9 @@ The website also has information about Showcase and the vision behind it all. Us
 
 # Features
 
-## Existing features
+## Existing features:
 
-### Navigation:
+### __Navigation__
 
 - The navigation is fixed and shows the company name on the left, this links to the top of the page.
 - The other links are to the right and is called "Home", "Concerts" and "Sign up!", they link to different parts of the website.
@@ -60,7 +107,7 @@ How it looks on smaller devices
 
 ![Image of navigation on small devices](assets/readme/navigation-phone.png)
 
-### Home:
+### __Home__
 
 - The hero image of the Home page is a blue image of a concert with cheering audience to set a good impression to the user regarding the website and it's purpose right from the start.
 - On the image you see the text "You enjoy live music? Say no more! We have gathered all events so you don't need to!" to further describe the purpose of the website to make it easy for users to know what kind of website it is.
@@ -68,13 +115,13 @@ How it looks on smaller devices
 
 ![Hero image showing a concert with cheering audience](assets/readme/hero-image.png)
 
-### About:
+### __About us__
 
 - Under the hero image there is an "About us" section that describes how long Showcase has been active and the vision behind it all.
 
 ![Image of the "About us" section](assets/readme/about-us.png)
 
-### Concerts:
+### __Concerts__
 
 - This section has an image of a bassplayer with the text "Concerts. Find the ultimate concert just for you. We have it all!" to make it clear what the next sesction is about.
 - Below the image, upcoming concerts are listed with information about band/artist, date, time, place and ticket prices.
@@ -88,13 +135,23 @@ List of upcoming events in Concerts section:
 
 ![List of upcoming concerts in the Concerts section](assets/readme/concerts-list.png)
 
-### Sign up
+### __Sign up!__
 
 - The user has the option here to sign up for the newsletter, all you have to do is to enter your e-mail address and click on "Sign up!". By doing this you are first to recieve information about upcoming gigs and other updates.
 
 ![Sign up form](assets/readme/sign-up.png)
 
-### Footer
+- It's mandatory to enter an email adress and it will show error messages if the field is empty or if it's not an email address.
+
+Error message when it's empty:
+
+![Error message from the form](assets/readme/form-empty.png)
+
+Error message when it's not an email address:
+
+![Error message from the form](assets/readme/form-no-email.png)
+
+### __Footer__
 
 - The footer contains icons that links to the social media accounts that Showcase uses: Facebook, Instagram and Youtube.
 - Information about copyright at the bottom.
@@ -102,6 +159,10 @@ List of upcoming events in Concerts section:
 ![Footer of the website](assets/readme/footer.png)
 
 ## Features left to implement
+
+- In the future I would like to include a search bar both in the navigation bar and in the Concerts section so users easily can search for different kinds of events instead of scrolling through the list.
+- I would like to start selling the tickets directly from the page so it no longer would link to other sites but instead handling the tickets and payment directly on the website.
+- I would like for some parts to be a video background instead of all images. 
 
 # Testing
 
