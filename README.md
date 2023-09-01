@@ -169,7 +169,6 @@ Error message when it's not an email address:
 
 - The website is tested and works in multiple web browsers: Google Chrome, Microsoft Edge and Firefox.
 - It works on mobile devices such as Google Chrome on Android devices and Safari on iPhone.
-- The website is responsive and well-functioning on diferrent screen sizes, which is tested by using it on several devices but also Chrome DevTools to see how it adjusts through the different sizes.
 - The navigation bar stays at the top of the page and all the links works correctly.
 - The button "Find concerts!" links to the Concerts section.
 - The buttons on every concert links to the right site in a new tab.
@@ -177,6 +176,10 @@ Error message when it's not an email address:
 - The social media icons link to their websites in a new tab.
 - The text on the website is easy to read and the colors show good contrast and work well together.
 - The layout is correct so nothing is out of place.
+- The website is responsive and well-functioning on different screen sizes, which is tested by using it on several devices but also Chrome DevTools to see how it adjusts through the different sizes.
+- The accessibility is tested by Lighthouse with the following results:
+
+![Results of accessibility](assets/readme/lighthouse.png)
 
 ## Validator testing
 
